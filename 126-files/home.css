@@ -7,12 +7,10 @@ html {
 }
 
 .container {
-    min-height: 100vh;
+    max-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 7fr 1fr;
-    grid-row-gap: 2px;
-    grid-column-gap: 2px;
+    grid-template-rows: 1fr 8fr 1fr;
 }
 
 .navmenu {
@@ -40,7 +38,7 @@ html {
 
 .nav_list li {
     list-style: none;
-    padding: 1vh;
+    padding: 3vh;
     cursor: pointer;
 }
 
