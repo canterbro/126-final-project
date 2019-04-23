@@ -48,10 +48,12 @@ html {
     grid-column: 3/4;
 }
 
+
+
 li {
     list-style: none;
     padding-top: 1vh; 
-    
+    padding-left: 2vh;
 }
 li a {
     color: #59656F;
