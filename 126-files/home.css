@@ -1,0 +1,25 @@
+.another_container {
+    display: grid;
+    grid-row: 2/3;
+    grid-template-columns: 2fr 5fr 3fr 2fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.turing_machine {
+    background: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2/3;
+    height: 80%;
+    width: 100%;
+    color: white;
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
