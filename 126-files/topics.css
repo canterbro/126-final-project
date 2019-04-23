@@ -1,4 +1,4 @@
-body,
+/* body,
 html {
     width: 100%;
     margin: 0;
@@ -12,7 +12,7 @@ html {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .content-container > div {
@@ -47,17 +47,24 @@ html {
     grid-row: 3/4;
     grid-column: 3/4;
 }
+#image4 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+#image5 {
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
 
 
-
-li {
+.content-container li {
     list-style: none;
     padding-top: 1vh; 
     padding-left: 2vh;
 }
-li a {
+.content-container li a {
     color: #59656F;
 }
-li a:hover {
+.content-container li a:hover {
     color: #008DF1;
-}
+} */
