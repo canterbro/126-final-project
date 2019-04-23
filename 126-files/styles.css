@@ -11,14 +11,12 @@ h4 {
     margin: .4vh .4vh;
 }
 
-.container {
+/* .container {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 7fr 1fr;
-    grid-row-gap: 2px;
-    grid-column-gap: 2px;
-}
+} */
 
 .navmenu {
     background-color: #7BAFD4;
