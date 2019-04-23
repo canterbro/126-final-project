@@ -6,13 +6,6 @@ html {
     font-family: Helvetica;
 }
 
-.container {
-    max-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
-}
-
 .navmenu {
     background-color: #7BAFD4;
     grid-column: 1/2;

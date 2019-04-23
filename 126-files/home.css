@@ -1,26 +1,71 @@
 .another_container {
+    min-height: 90vh;
     display: grid;
     grid-row: 2/3;
     grid-template-columns: 2fr 5fr 3fr 2fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 7fr 1fr;
     justify-items: center;
     align-items: center;
-
 }
 
 .turing_machine {
     background: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
+    grid-column: 2/3;
+    grid-row: 1/2;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 2/3;
     height: 80%;
     width: 100%;
-    color: white;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 .title {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    text-shadow: 3px 3px black;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    /* border-radius: 10px; */
+    padding: 5vh 5vw;
+}
+
+.title>h1 {
+    margin: 0 auto;
+    font-size: 3em;
+}
+
+.title>h2 {
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.side {
+    grid-column: 3/4;
+    text-align: left;
+}
+
+.quick_info {
+    border-top: 1px solid #59656F;
+    border-bottom: 1px solid #59656F;
+    padding: 15px 0;
+}
+
+.quick_info>h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.indent>p {
+    margin: 0;
+    line-height: 22px;
+}
+
+.indent {
+    margin-left: 20px;
 }
