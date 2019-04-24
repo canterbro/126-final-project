@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='styles.css' rel='stylesheet' type='text/css' />
     <link href='home.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Models of Languages and Composition </title>
 </head>
 
 <body>
-    <nav class="navmenu">
-        <ul class="nav_list">
+    <nav class="navmenu" id="menu">
+        <ul class="nav_list" id="list">
             <li class="nav_item">
                 <a href="./home.html">HOME</a>
             </li>
@@ -38,9 +39,9 @@
             </li>
         </ul>
     </nav>
-    <div class="hamburger">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
+    <a href="#" id="hamburger" onclick="myFunction()">
+        <i class="fa fa-bars fa-lg" ></i>
+    </a>
 
     <div class="another_container">
         <div class="turing_machine">
@@ -81,6 +82,19 @@
         </div>
         <div class="background_img"></div>
     </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("list");
+            var y = document.getElementById("hamburger");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
