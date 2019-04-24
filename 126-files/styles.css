@@ -38,3 +38,8 @@ html {
 .nav_list li:hover {
     background-color: #2D5C83;
 }
+
+h4 {
+    font-size: 1.2em;
+    margin: 0 0 1vh 0;;
+}
