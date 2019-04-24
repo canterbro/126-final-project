@@ -24,17 +24,19 @@ html {
 }
 
 .nav_list li a {
+    display: block;
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+    padding: 3vh;
+}
+
+.nav_list a:hover {
+    background-color: #2D5C83;
 }
 
 .nav_list li {
     list-style: none;
-    padding: 3vh;
     cursor: pointer;
-}
-
-.nav_list li:hover {
-    background-color: #2D5C83;
+    height: 100%;
 }
