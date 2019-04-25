@@ -1,0 +1,133 @@
+body,
+html {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica;
+    color: #59656F;
+}
+
+.content-container {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    grid-template-rows: 5fr 1fr;
+    grid-column-gap: .5vw;
+    grid-row-gap: 20vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(243, 243, 243);
+    min-width: 200px;
+    /* max-height: 180px; */
+}
+
+#row1 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    max-width: 24vw;
+    background-color: rgb(243, 243, 243);
+}
+
+.week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#week1 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    color: #59656F;
+    background-color: rgb(243, 243, 243);
+}
+
+.text {
+    padding: 3vh 3vh;
+}
+
+.content-container li {
+    list-style: none;
+    padding-top: 1vh;
+    padding-left: 2vh;
+}
+
+.content-container li a {
+    color: #59656F;
+}
+
+.content-container li a:hover {
+    color: #008DF1;
+}
+
+.content-container li a:active {
+    color: #9F00C0;
+}
+
+.background_img {
+    position: fixed;
+    z-index: -10;
+    background-image: url("Images/triangles.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    opacity: .5;
+    margin-top: 36vh;
+}
+
+.logo {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    justify-self: center;
+}
+
+.UNC {
+    max-height: 8.5vh;
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+    .content-container {
+        display: grid;
+        text-align: left;
+        grid-template-columns: 2fr 3fr 2fr;
+        grid-template-rows: 5fr 5fr 1fr;
+        grid-column-gap: 0vw;
+        grid-row-gap: .5vh;
+    }
+
+    #row1 {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        max-width: 24vw;
+        background-color: rgb(243, 243, 243);
+    }
+
+    .week {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #week1 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        color: #59656F;
+        background-color: rgb(243, 243, 243);
+    }
+
+    .logo {
+        grid-row: 3/4;
+        grid-column: 1/5;
+        justify-self: center;
+    }
+
+    .UNC {
+        max-height: 8.5vh;
+    }
+
+}

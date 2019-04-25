@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='styles.css' rel='stylesheet' type='text/css' />
+    <link href='lectures.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Class Info - COMP455</title>
+</head>
+
+<body>
+    <nav class="navmenu" id="menu">
+        <ul class="nav_list" id="list">
+            <li class="nav_item">
+                <a href="./home.html">HOME</a>
+            </li>
+
+            <li class="nav_item">
+                <a href="./topics.html">TOPICS</a>
+            </li>
+
+            <li class="nav_item">
+                <a href="./homework.html">HOMEWORK</a>
+            </li>
+
+            <li class="nav_item">
+                <a href="./lectures.html">LECTURES</a>
+            </li>
+
+            <li class="nav_item">
+                <a href="./exam-practice.html">EXAM PRACTICE</a>
+            </li>
+
+            <li class="nav_item">
+                <a href="./class-info.html">CLASS INFO</a>
+            </li>
+        </ul>
+    </nav>
+    <a href="#" id="hamburger" onclick="myFunction()">
+        <i class="fa fa-bars fa-lg"></i>
+    </a>
+    </head>
+
+    <body>
+
+
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("list");
+                var y = document.getElementById("hamburger");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+
+</html>
