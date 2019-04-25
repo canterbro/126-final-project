@@ -108,6 +108,7 @@ a:active {
     height: 90vh;
     width: 100%;
     opacity: .5;
+    margin-top: 36vh;
 }
 
 @media only screen and (max-width: 1230px) {

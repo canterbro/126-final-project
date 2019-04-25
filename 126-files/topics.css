@@ -79,7 +79,6 @@ html {
     grid-column: 3/4;
 }
 
-
 .content-container li {
     list-style: none;
     padding-top: 1vh; 
@@ -115,6 +114,8 @@ html {
 .UNC {
     max-height: 8.5vh;
 }
+
+
 
 @media only screen 
 and (min-device-width : 375px) 
