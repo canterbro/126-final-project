@@ -10,6 +10,10 @@
     z-index: 9999;
 }
 
+.nav_item1 a{
+    background-color: #2D5C83;
+}
+
 .turing_machine {
     background: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
     grid-column: 2/3;

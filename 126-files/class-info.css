@@ -1,0 +1,262 @@
+.another_container {
+    min-height: 90vh;
+    display: grid;
+    grid-row: 2/3;
+    grid-template-columns: 2fr 2fr 5fr 2fr;
+    grid-template-rows: 1fr;
+    color: #59656F;
+    z-index: 9999;
+}
+.left-info {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.nav_item6 a{
+    background-color: #2D5C83;
+}
+
+.ta-info {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: left;
+    padding: 15px 0;
+    margin-left: 10px;
+}
+
+.david {
+    background: url("./assets/Plaisted.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 6vh 4vh;
+    line-height: .4;
+}
+.david > h3 {
+    margin-top: 310px;
+}
+
+.links {
+    text-align: left;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* margin-top: 4vh; */
+    border-top: 1px solid #59656F;
+    /* border-bottom: 1px solid #59656F; */
+    padding: 15px 0;
+    /* margin-top: 410px; */
+}
+
+.side {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: left;
+    margin-top: 8vh;
+}
+
+.quick  {
+    border-top: 1px solid #59656F;
+    border-bottom: 1px solid #59656F;
+    padding: 15px 0;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+    line-height: 25px;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+.left, .two {
+    border-top: none;
+}
+.left {
+    border-bottom: none;
+}
+
+a:visited {
+    color: #59656F;
+}
+
+a:hover {
+    color: #008DF1;
+}
+
+a:active {
+    color: #9F00C0;
+}
+
+/* .logo {
+    grid-row: 2/3;
+    grid-column: 1/5;
+} */
+
+/* 
+.UNC {
+    max-height: 8.5vh;
+} */
+
+.background_img {
+    position: fixed;
+    z-index: -10;
+    background-image: url("Images/triangles.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    opacity: .5;
+    margin-top: 54vh;
+}
+
+@media only screen and (max-width: 1230px) {
+    .title>h1 {
+        margin: 0 auto;
+        font-size: 2em;
+    }
+
+    .title>h2 {
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+
+    .quick>h3 {
+        font-size: 1.25em;
+        font-weight: 200;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+}
+
+/* @media only screen and (max-width: 959px) {
+    .title>h1 {
+        margin: 0 auto;
+        font-size: 2em;
+    }
+
+    .title>h2 {
+        margin: 0 auto;
+        font-size: 1.25em;
+    }
+
+    .quick>h3 {
+        font-size: 1.25em;
+        font-weight: 200;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .title>h1 {
+        margin: 0 auto;
+        font-size: 2em;
+    }
+
+    .title>h2 {
+        margin: 0 auto;
+        font-size: 1.25em;
+    }
+
+    .quick>h3 {
+        font-size: 1.25em;
+        font-weight: 200;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+} */
+
+/* @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { */
+ @media only screen and (max-width: 630px) {
+    .another_container {
+        /* min-height: 90vh; */
+        display: grid;
+        /* grid-row: 2/3; */
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 2fr;
+        padding: 2vh 2vh;
+    }
+
+    .david {
+        background: url("./assets/Plaisted.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 140px;
+        z-index: 1;
+        border-radius: 10px;
+        margin: 6vh 4vh;
+        line-height: .4;
+    }
+    .david > h3 {
+        margin-top: 210px;
+    }
+
+    .left-info {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        flex-direction: row;
+    }
+    .side {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .links {
+        border-top: none;
+    }
+    .side {
+        margin-top: 2vh;
+    }
+
+
+    /* .david {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background: url("./assets/Plaisted.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 200px;
+        z-index: 1;
+        border-radius: 10px;
+        margin: 8vh 4vh;
+        line-height: .4;
+        justify-self: center;
+    }
+
+    .links {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 2vh 2vh;
+        margin: 0;
+        border-top: none;
+    }
+
+    .side {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: left;
+        padding: 2vh 2vh;
+    } */
+
+} 
+

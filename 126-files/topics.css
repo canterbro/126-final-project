@@ -23,6 +23,11 @@ html {
     padding: 2vh 2vh;
 }
 
+.nav_item2 a{
+    background-color: #2D5C83;
+}
+
+
 .text {
     border: 1px solid #DDDDDD;
     min-width: 200px;

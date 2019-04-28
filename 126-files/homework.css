@@ -16,6 +16,11 @@ html {
     grid-row-gap: 20vh;
 }
 
+.nav_item3 a{
+    background-color: #2D5C83;
+}
+
+
 .text {
     display: flex;
     flex-direction: column;
