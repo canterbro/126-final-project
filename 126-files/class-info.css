@@ -54,11 +54,8 @@ aside {
     text-align: left;
     grid-column: 2/3;
     grid-row: 1/2;
-    /* margin-top: 4vh; */
     border-top: 1px solid #59656F;
-    /* border-bottom: 1px solid #59656F; */
     padding: 15px 0;
-    /* margin-top: 410px; */
 }
 
 article {
@@ -74,18 +71,6 @@ article {
     padding: 15px 0;
     margin-left: 10px;
 }
-
-/* h3 {
-    font-size: 1.5em;
- 
-    margin-bottom: 10px;
-    margin-top: 0;
-    font-family: 'Roboto Mono', monospace;
-} */
-
-/* .david>h3 {
-    font-weight: 200;
-} */
 
 p {
     margin: 0;
@@ -117,16 +102,6 @@ a:active {
     color: #9F00C0;
 }
 
-/* .logo {
-    grid-row: 2/3;
-    grid-column: 1/5;
-} */
-
-/* 
-.UNC {
-    max-height: 8.5vh;
-} */
-
 .background_img {
     position: fixed;
     z-index: -10;
@@ -145,12 +120,6 @@ a:active {
         margin: 0 auto;
         font-size: 2em;
     }
-
-    /* .title>h2 {
-        margin: 0 auto;
-        font-size: 1.5em;
-    } */
-
     .quick>h3 {
         font-size: 1.25em;
         font-weight: 200;
@@ -159,50 +128,9 @@ a:active {
     }
 }
 
-/* @media only screen and (max-width: 959px) {
-    .title>h1 {
-        margin: 0 auto;
-        font-size: 2em;
-    }
-
-    .title>h2 {
-        margin: 0 auto;
-        font-size: 1.25em;
-    }
-
-    .quick>h3 {
-        font-size: 1.25em;
-        font-weight: 200;
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .title>h1 {
-        margin: 0 auto;
-        font-size: 2em;
-    }
-
-    .title>h2 {
-        margin: 0 auto;
-        font-size: 1.25em;
-    }
-
-    .quick>h3 {
-        font-size: 1.25em;
-        font-weight: 200;
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
-} */
-
-/* @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { */
 @media only screen and (max-width: 630px) {
     section {
-        /* min-height: 90vh; */
         display: grid;
-        /* grid-row: 2/3; */
         grid-template-columns: 1fr;
         grid-template-rows: .5fr 2fr;
         padding: 2vh 2vh;
@@ -234,46 +162,10 @@ a:active {
     article {
         grid-row: 2/3;
         grid-column: 1/2;
-    }
-
-    .links {
-        border-top: none;
-    }
-
-    article {
         margin-top: 2vh;
     }
 
-
-    /* .david {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background: url("./assets/Plaisted.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 300px;
-        width: 200px;
-        z-index: 1;
-        border-radius: 10px;
-        margin: 8vh 4vh;
-        line-height: .4;
-        justify-self: center;
-    }
-
     .links {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        padding: 2vh 2vh;
-        margin: 0;
         border-top: none;
     }
-
-    article {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        text-align: left;
-        padding: 2vh 2vh;
-    } */
-
 }
