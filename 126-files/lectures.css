@@ -11,14 +11,14 @@ html {
     text-align: center;
 }
 
-.content-container {
+section {
     display: grid;
     text-align: left;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.content-container>div {
+section>div {
     padding: 2vh 2vh;
 }
 
@@ -132,21 +132,21 @@ html {
 
 
 
-.content-container li {
+section li {
     list-style: none;
     padding-top: 1vh;
     padding-left: 2vh;
 }
 
-.content-container li a {
+section li a {
     color: #59656F;
 }
 
-.content-container li a:hover {
+section li a:hover {
     color: #008DF1;
 }
 
-.content-container li a:active {
+section li a:active {
     color: #9F00C0;
 }
 

@@ -1,4 +1,4 @@
-.aside {
+.container {
     min-height: 90vh;
     display: grid;
     grid-row: 2/3;
@@ -9,12 +9,12 @@
     color: #59656F;
     z-index: 9999;
 }
-
-.nav_item1 a {
+ /* change color when on page */
+.nav_item1 a{
     background-color: #2D5C83;
 }
 
-.turing_machine {
+section {
     background: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
     grid-column: 2/3;
     grid-row: 1/2;
@@ -27,27 +27,17 @@
     border-radius: 10px;
 }
 
-.header{
+.title {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     text-shadow: 3px 3px black;
     color: white;
     background: rgba(0, 0, 0, 0.4);
-    /* border-radius: 10px; */
     padding: 5vh 5vw;
 }
-.header>h1 {
-    margin: 0 auto;
-    font-size: 3em;
-}
 
-.header>h2 {
-    margin: 0 auto;
-    font-size: 2em;
-}
-
-.side {
+aside {
     grid-column: 3/4;
     text-align: left;
 }
@@ -61,22 +51,21 @@
 
 .quick>h3 {
     font-size: 1.5em;
+    font-weight: 200;
     margin-bottom: 10px;
     margin-top: 0;
-    font-family: 'Roboto Mono', monospace;
 }
 
 .indent>p {
     margin: 0;
     line-height: 25px;
-
 }
 
 .indent {
     margin-left: 20px;
 }
 
-.two {
+.info {
     border-top: none;
 }
 
@@ -92,16 +81,6 @@ a:active {
     color: #9F00C0;
 }
 
-/* .logo {
-    grid-row: 2/3;
-    grid-column: 1/5;
-} */
-
-/* 
-.UNC {
-    max-height: 8.5vh;
-} */
-
 .background_img {
     position: absolute;
     z-index: -10;
@@ -115,12 +94,12 @@ a:active {
 }
 
 @media only screen and (max-width: 1230px) {
-    .header>h1 {
+    .title>h1 {
         margin: 0 auto;
         font-size: 2em;
     }
 
-    .header>h2 {
+    .title>h2 {
         margin: 0 auto;
         font-size: 1.5em;
     }
@@ -133,13 +112,13 @@ a:active {
     }
 }
 
-@media only screen and (max-width: 959px) {
-    .header>h1 {
+/* @media only screen and (max-width: 959px) {
+    .title>h1 {
         margin: 0 auto;
         font-size: 2em;
     }
 
-    .header>h2 {
+    .title>h2 {
         margin: 0 auto;
         font-size: 1.25em;
     }
@@ -150,15 +129,15 @@ a:active {
         margin-bottom: 10px;
         margin-top: 0;
     }
-}
-
+} */
+/* 
 @media only screen and (max-width: 767px) {
-    .header>h1 {
+    .title>h1 {
         margin: 0 auto;
         font-size: 2em;
     }
 
-    .header>h2 {
+    .title>h2 {
         margin: 0 auto;
         font-size: 1.25em;
     }
@@ -169,11 +148,12 @@ a:active {
         margin-bottom: 10px;
         margin-top: 0;
     }
-}
+} */
 
-/* @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { */
+/* when the screen get small enough stretch turing image across top and stack
+quick info and quick links */
 @media only screen and (max-width: 630px) {
-    .aside {
+    .container {
         min-height: 90vh;
         display: grid;
         grid-row: 2/3;
@@ -181,21 +161,16 @@ a:active {
         grid-template-rows: 1fr 3fr 1fr;
     }
 
-    .turing_machine {
+    section {
         grid-column: 1/2;
         grid-row: 1/2;
         height: 100%;
-        border-radius: 0;
     }
 
-    .side {
+    aside {
         grid-column: 1/2;
         grid-row: 2/3;
         text-align: left;
     }
-
-    .logo {
-        grid-row: 3/4;
-        grid-column: 1/2;
-    }
 }
+

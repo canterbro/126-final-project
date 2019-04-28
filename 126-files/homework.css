@@ -7,7 +7,7 @@ html {
     color: #59656F;
 }
 
-.content-container {
+section {
     display: grid;
     text-align: left;
     grid-template-columns: 2fr 3fr 3fr 2fr;
@@ -29,7 +29,7 @@ html {
     /* max-height: 180px; */
 }
 
-#row1 {
+#handouts {
     grid-row: 1/2;
     grid-column: 3/4;
     background-color: rgba(255, 255, 255, 0.288);
@@ -37,13 +37,7 @@ html {
     border: 1px solid lightgrey;
 }
 
-.week {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#week1 {
+#homework {
     grid-row: 1/2;
     grid-column: 2/3;
     color: #59656F;
@@ -55,21 +49,21 @@ html {
     padding: 3vh 3vh;
 }
 
-.content-container li {
+section li {
     list-style: none;
     padding-top: 1vh;
     padding-left: 2vh;
 }
 
-.content-container li a {
+section li a {
     color: #59656F;
 }
 
-.content-container li a:hover {
+section li a:hover {
     color: #008DF1;
 }
 
-.content-container li a:active {
+section li a:active {
     color: #9F00C0;
 }
 
@@ -86,19 +80,9 @@ html {
     margin-top: 36vh;
 }
 
-/* .logo {
-    grid-row: 2/3;
-    grid-column: 1/5;
-    justify-self: center;
-}
-
-.UNC {
-    max-height: 8.5vh;
-} */
-
 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
 
-    .content-container {
+    section {
         display: grid;
         text-align: left;
         grid-template-columns: 2fr 3fr 2fr;
@@ -107,34 +91,10 @@ html {
         grid-row-gap: .5vh;
     }
 
-    #row1 {
+    #handouts {
         grid-row: 2/3;
         grid-column: 2/3;
         max-width: 24vw;
-        background-color: rgb(243, 243, 243);
+        /* background-color: rgb(243, 243, 243); */
     }
-
-    .week {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #week1 {
-        grid-row: 1/2;
-        grid-column: 2/3;
-        color: #59656F;
-        background-color: rgb(243, 243, 243);
-    }
-
-    .logo {
-        grid-row: 3/4;
-        grid-column: 1/5;
-        justify-self: center;
-    }
-
-    .UNC {
-        max-height: 8.5vh;
-    }
-
 }

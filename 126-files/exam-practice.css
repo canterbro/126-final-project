@@ -101,10 +101,10 @@ html {
     box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
 }
 
-h5 {
+/* h5 {
     margin: 2vh;
     font-family: 'Roboto Mono', monospace;
-}
+} */
 
 .exam-answers {
     grid-column: 3/4;
@@ -187,9 +187,9 @@ h5 {
         grid-column: 1/2;
     }
 
-    h5 {
+    /* h5 {
         font-size: 5vw;
-    }
+    } */
 
     .move-it {
         grid-row: 2/3;
