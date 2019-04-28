@@ -1,4 +1,4 @@
-.another_container {
+.aside {
     min-height: 90vh;
     display: grid;
     grid-row: 2/3;
@@ -27,7 +27,7 @@
     border-radius: 10px;
 }
 
-.title {
+.header{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -37,13 +37,12 @@
     /* border-radius: 10px; */
     padding: 5vh 5vw;
 }
-
-.title>h1 {
+.header>h1 {
     margin: 0 auto;
     font-size: 3em;
 }
 
-.title>h2 {
+.header>h2 {
     margin: 0 auto;
     font-size: 2em;
 }
@@ -116,12 +115,12 @@ a:active {
 }
 
 @media only screen and (max-width: 1230px) {
-    .title>h1 {
+    .header>h1 {
         margin: 0 auto;
         font-size: 2em;
     }
 
-    .title>h2 {
+    .header>h2 {
         margin: 0 auto;
         font-size: 1.5em;
     }
@@ -135,12 +134,12 @@ a:active {
 }
 
 @media only screen and (max-width: 959px) {
-    .title>h1 {
+    .header>h1 {
         margin: 0 auto;
         font-size: 2em;
     }
 
-    .title>h2 {
+    .header>h2 {
         margin: 0 auto;
         font-size: 1.25em;
     }
@@ -154,12 +153,12 @@ a:active {
 }
 
 @media only screen and (max-width: 767px) {
-    .title>h1 {
+    .header>h1 {
         margin: 0 auto;
         font-size: 2em;
     }
 
-    .title>h2 {
+    .header>h2 {
         margin: 0 auto;
         font-size: 1.25em;
     }
@@ -174,7 +173,7 @@ a:active {
 
 /* @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { */
 @media only screen and (max-width: 630px) {
-    .another_container {
+    .aside {
         min-height: 90vh;
         display: grid;
         grid-row: 2/3;
