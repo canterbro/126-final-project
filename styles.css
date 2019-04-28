@@ -1,0 +1,117 @@
+body,
+html {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica;
+    color: #59656F;
+}
+
+nav {
+    background-color: #7BAFD4;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.nav_list {
+    display: flex;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav_list li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 3vh;
+}
+
+.nav_list a:hover {
+    background-color: #2D5C83;
+}
+
+.nav_list li {
+    list-style: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+#hamburger {
+    display: none;
+}
+
+a:visited {
+    color: #59656F;
+}
+
+a:hover {
+    color: #008DF1;
+}
+
+a:active {
+    color: #9F00C0;
+}
+
+/* when screen gets small enough collapse into hamburger */
+@media only screen and (max-width: 630px) {
+    .navmenu {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: fixed;
+        margin-top: 4.9vh;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .nav_list {
+        display: none;
+        text-align: left;
+    }
+
+    #hamburger {
+        display: block;
+        background-color: #7BAFD4;
+        text-align: left;
+        height: 5vh;
+    }
+
+    .fa {
+        color: white;
+        margin: 2vh 2vh;
+    }
+}
+
+
+/* css styles for all headers */
+h1 {
+    margin: 0 auto;
+    font-size: 3em;
+}
+
+h2 { 
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: 200;
+}
+h4 {
+    font-size: 1.6em;
+}
+h5 {
+    font-size: 1.2em;
+    margin: 1vh 0vh;
+}
+h6 {
+    font-size: 1.2em;
+}
+
+
