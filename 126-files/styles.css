@@ -64,7 +64,7 @@ a:active {
 }
 
 /* @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { */
-    @media only screen and (max-width: 630px) {
+@media only screen and (max-width: 630px) {
     .navmenu {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -95,12 +95,17 @@ a:active {
 h2 {
     font-size: 1.6em;
     font-weight: 200;
+    /* font-family: 'Roboto Mono', monospace; */
+
+
 }
 
 h4 {
     font-size: 1.25em;
-    font-weight: 200;
+    /* font-weight: 200; */
     margin: 1vh 0vh;
+    font-family: 'Roboto Mono', monospace;
+
 }
 
 h5 {

@@ -10,7 +10,7 @@
     z-index: 9999;
 }
 
-.nav_item1 a{
+.nav_item1 a {
     background-color: #2D5C83;
 }
 
@@ -61,9 +61,9 @@
 
 .quick>h3 {
     font-size: 1.5em;
-    font-weight: 200;
     margin-bottom: 10px;
     margin-top: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .indent>p {
@@ -199,4 +199,3 @@ a:active {
         grid-column: 1/2;
     }
 }
-
