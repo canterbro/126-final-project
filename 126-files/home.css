@@ -89,14 +89,15 @@ a:active {
     color: #9F00C0;
 }
 
-.logo {
+/* .logo {
     grid-row: 2/3;
     grid-column: 1/5;
-}
+} */
 
+/* 
 .UNC {
     max-height: 8.5vh;
-}
+} */
 
 .background_img {
     position: absolute;
