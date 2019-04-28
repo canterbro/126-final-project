@@ -22,6 +22,7 @@ html {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    min-height: 10px;
 }
 
 .nav_list li a {
@@ -45,11 +46,6 @@ html {
 #hamburger {
     display: none;
 }
-
-/* @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {  */
 
 a:visited {
     color: #59656F;
@@ -92,9 +88,18 @@ a:active {
     }
 }
 
+.nav-title {
+    font-size: 1em;
+    font-weight: 200;
+}
+h2 {
+    font-size: 1.8em;
+    font-weight: 200;
+}
 h4 {
-    font-size: 1.2em;
-    margin: 0 0 1vh 0;
+    font-size: 1.4em;
+    font-weight: 200;
+    margin: 1vh 1vh;
 }
 
 h5 {

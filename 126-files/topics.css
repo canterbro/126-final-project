@@ -144,7 +144,7 @@ html {
 
 
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+/* @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
 
     .content-container {
         display: grid;
@@ -215,7 +215,7 @@ html {
     .image {
         height: 10vh;
     }
-}
+} */
 
 @media only screen and (max-width: 630px) {
     .content-container {
@@ -305,5 +305,8 @@ html {
 
     .image {
         height: 10vh;
+    }
+    .text {
+        border: none;
     }
 }
