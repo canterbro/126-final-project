@@ -9,7 +9,6 @@ html {
 
 .container {
     text-align: center;
-
 }
 
 .content-container {
@@ -22,6 +21,11 @@ html {
 .content-container>div {
     padding: 2vh 2vh;
 }
+
+.nav_item5 a{
+    background-color: #2D5C83;
+}
+
 
 .text {
     border: 1px solid #DDDDDD;
