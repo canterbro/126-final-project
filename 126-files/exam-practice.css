@@ -23,7 +23,7 @@ html {
     padding: 2vh 2vh;
 }
 
-.nav_item5 a{
+.nav_item5 a {
     background-color: #2D5C83;
 }
 
@@ -73,7 +73,7 @@ html {
 .move-it-two {
     grid-row: 2/3;
     grid-column: 2/3;
-    color: #7BAFD4;
+    color: #2D5C83;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ html {
 .move-it-three {
     grid-row: 3/4;
     grid-column: 3/4;
-    color: #7BAFD4;
+    color: #2D5C83;
     text-align: center;
 }
 
@@ -95,7 +95,7 @@ html {
 #image1 {
     grid-row: 1/2;
     grid-column: 3/4;
-    color: #7BAFD4;
+    color: #2D5C83;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
     -moz-box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
     box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
