@@ -87,7 +87,7 @@ section {
     width: 100%;
     opacity: .5;
 }
-
+/* css styles for links */
 .indent a {
     color: #59656F;
 }
@@ -96,7 +96,7 @@ section {
     color: #008DF1;
 }
 
- .indent a:active {
+ .indent a:active {   
     color: #9F00C0;
 }
 
