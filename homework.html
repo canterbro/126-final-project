@@ -39,20 +39,21 @@
     <a href="#" id="hamburger" onclick="myFunction()">
         <i class="fa fa-bars fa-lg"></i>
     </a>
-    </head>
 
-    <body>
-        <h3>HOMEWORK & HANDOUTS</h3>
-        <section>
-            <div class="background_img"></div>
-            <div class="text" id="handouts">
-                <h5>Handouts</h5>
+    <h3>HOMEWORK & HANDOUTS</h3>
+    <section>
+        <div class="background_img"></div>
+        <div class="text" id="handouts">
+            <h5>Handouts</h5>
+            <ul class="fix-indent">
                 <li class="item">
-                    <a href="https://www.cs.unc.edu/~plaisted/comp455/rules.pdf" target="_blank">Rules of Inference for
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/rules.pdf" target="_blank">Rules of Inference
+                        for
                         Sets</a>
                 </li>
                 <li class="item">
-                    <a href="https://www.cs.unc.edu/~plaisted/comp455/rules2.pdf" target="_blank">Rules of Inference for
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/rules2.pdf" target="_blank">Rules of Inference
+                        for
                         Operations on Languages</a>
                 </li>
                 <li class="item">
@@ -82,9 +83,11 @@
                 <li class="item">
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/hndout11.pdf" target="_blank">Handout 11</a>
                 </li>
-            </div>
-            <div class="text" id="homework">
-                <h5>Homework</h5>
+            </ul>
+        </div>
+        <div class="text" id="homework">
+            <h5>Homework</h5>
+            <ul class="fix-indent">
                 <li class="item">
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/homework/homework1.pdf" target="_blank">Homework
                         1</a>
@@ -121,19 +124,20 @@
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/homework/homework9.pdf" target="_blank">Homework
                         9</a>
                 </li>
-            </div>
-        </section>
-            <script>
-                function myFunction() {
-                    var x = document.getElementById("list");
-                    var y = document.getElementById("hamburger");
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
-                    }
-                }
-            </script>
-    </body>
+            </ul>
+        </div>
+    </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("list");
+            var y = document.getElementById("hamburger");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
 
 </html>

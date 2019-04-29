@@ -28,6 +28,11 @@ section>div {
     min-width: 200px;
 }
 
+.fix-indent {
+    padding: 0;
+    margin: 0;
+}
+
 .image {
     background-color: rgb(243, 243, 243);
 }

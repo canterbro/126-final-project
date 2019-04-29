@@ -38,13 +38,14 @@
     </nav>
     <a href="#" id="hamburger" onclick="myFunction()">
         <i class="fa fa-bars fa-lg"></i>
-    </a> 
-    </head>
-        <h3>EXAM PRACTICE</h3>
-        <section>
-            <div class="background_img"></div>
-            <div class="text" id="row1">
-                <h5>Practice for Exam 1</h5>
+    </a>
+
+    <h3>EXAM PRACTICE</h3>
+    <section>
+        <div class="background_img"></div>
+        <div class="text" id="row1">
+            <h5>Practice for Exam 1</h5>
+            <ul class="fix-indent">
                 <li class="item">
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/practice1.pdf" target="_blank">Practice Exam
                         1 (pdf)</a>
@@ -62,9 +63,12 @@
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/book1" target="_blank">Practice Problems from the
                         Text</a>
                 </li>
-            </div>
-            <div class="text" id="row2">
-                <h5>Practice for Exam 2</h5>
+            </ul>
+        </div>
+
+        <div class="text" id="row2">
+            <h5>Practice for Exam 2</h5>
+            <ul class="fix-indent">
                 <li class="item">
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/practice2.pdf" target="_blank">Practice Exam 2
                         (pdf)</a>
@@ -84,9 +88,12 @@
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/book2" target="_blank">Practice Problems from the
                         Text</a>
                 </li>
-            </div>
-            <div class="text" id="row3">
-                <h5>Practice for Exam 3</h5>
+            </ul>
+        </div>
+
+        <div class="text" id="row3">
+            <h5>Practice for Exam 3</h5>
+            <ul class="fix-indent">
                 <li class="item">
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/practice3.pdf" target="_blank">Practice Exam 3
                         (pdf)</a>
@@ -99,56 +106,57 @@
                     <a href="https://www.cs.unc.edu/~plaisted/comp455/book3" target="_blank">Practice Problems from the
                         Text</a>
                 </li>
+            </ul>
+        </div>
+        <div class="reveal">
+            <div class="image" id="image1">
+                <h6>Practice Exam 1 Answers</h6>
             </div>
-            <div class="reveal">
-                <div class="image" id="image1">
-                    <h6>Practice Exam 1 Answers</h6>
-                </div>
-                <div class="exam-answers">
-                    <li class="item">
-                        <a href="https://www.cs.unc.edu/~plaisted/comp455/answers1.pdf" target="_blank">Answers to
-                            Practice Exam 1</a>
-                    </li>
-                    <li class="item">
-                        <a href="https://www.cs.unc.edu/~plaisted/comp455/answers1b.pdf" target="_blank">Answers to
-                            Another Practice Exam 1</a>
-                    </li>
-                </div>
+            <ul class="exam-answers fix-indent">
+                <li class="item">
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/answers1.pdf" target="_blank">Answers to
+                        Practice Exam 1</a>
+                </li>
+                <li class="item">
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/answers1b.pdf" target="_blank">Answers to
+                        Another Practice Exam 1</a>
+                </li>
+            </ul>
+        </div>
+        <div class="reveal-two">
+            <div class="image" id="image2">
+                <h6>Practice Exam 2 Answers</h6>
             </div>
-            <div class="reveal-two">
-                <div class="image" id="image2">
-                    <h6>Practice Exam 2 Answers</h6>
-                </div>
-                <div class="exam-answers">
-                    <li class="item">
-                        <a href="https://www.cs.unc.edu/~plaisted/comp455/answers2.pdf" target="_blank">Answers to
-                            Practice Exam 2</a>
-                    </li>
-                    <li class="item">
-                        <a href="https://www.cs.unc.edu/~plaisted/comp455/cfg_exercises_sol.pdf" target="_blank">Answers
-                            to
-                            Practice Problems</a>
-                    </li>
-                </div>
-            </div>
+            <ul class="exam-answers fix-indent">
+                <li class="item">
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/answers2.pdf" target="_blank">Answers to
+                        Practice Exam 2</a>
+                </li>
+                <li class="item">
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/cfg_exercises_sol.pdf" target="_blank">Answers
+                        to
+                        Practice Problems</a>
+                </li>
+            </ul>
+        </div>
 
-            <div class="reveal-three">
-                <div class="image" id="image3">
-                    <h6>Practice Exam 3 Answers</h6>
-                </div>
-                <div class="exam-answers">
-                    <li class="item">
-                        <a href="https://www.cs.unc.edu/~plaisted/comp455/solutions3.pdf" target="_blank">Answers to
-                            Practice Exam 3</a>
-                    </li>
-                    <li class="item">
-                        <a href="https://www.cs.unc.edu/~plaisted/comp455/solutions.pdf" target="_blank">Answers to
-                            Another Practice Exam 3</a>
-                    </li>
-                </div>
+        <div class="reveal-three">
+            <div class="image" id="image3">
+                <h6>Practice Exam 3 Answers</h6>
             </div>
-        </section>
-    
+            <ul class="exam-answers fix-indent">
+                <li class="item">
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/solutions3.pdf" target="_blank">Answers to
+                        Practice Exam 3</a>
+                </li>
+                <li class="item">
+                    <a href="https://www.cs.unc.edu/~plaisted/comp455/solutions.pdf" target="_blank">Answers to
+                        Another Practice Exam 3</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
 
     <script>
         function myFunction() {
@@ -162,4 +170,5 @@
         }
     </script>
 </body>
+
 </html>

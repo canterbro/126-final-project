@@ -9,13 +9,14 @@
     color: #59656F;
     z-index: 9999;
 }
- /* change color when on page */
-.nav_item1 a{
+
+/* change color when on page */
+.nav_item1 a {
     background-color: #2D5C83;
 }
 
 aside {
-    background: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
+    background-image: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
     grid-column: 2/3;
     grid-row: 1/2;
     background-position: center;
@@ -65,6 +66,12 @@ section {
     margin-left: 20px;
 }
 
+.fix-indent {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .info {
     border-top: none;
 }
@@ -102,7 +109,7 @@ section {
 
 /* when the screen get small enough stretch turing image across top and stack
 quick info and quick links */
-@media only screen and (max-width: 630px){
+@media only screen and (max-width: 630px) {
     .container {
         min-height: 90vh;
         display: grid;
@@ -124,4 +131,3 @@ quick info and quick links */
         text-align: left;
     }
 }
-
