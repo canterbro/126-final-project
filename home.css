@@ -72,6 +72,11 @@ section {
     margin-bottom: 0;
 }
 
+.info li {
+    padding: 0;
+    line-height: 25px;
+}
+
 .info {
     border-top: none;
 }
@@ -87,6 +92,7 @@ section {
     width: 100%;
     opacity: .5;
 }
+
 /* css styles for links */
 .indent a {
     color: #59656F;
@@ -96,7 +102,7 @@ section {
     color: #008DF1;
 }
 
- .indent a:active {   
+.indent a:active {
     color: #9F00C0;
 }
 
