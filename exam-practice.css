@@ -125,6 +125,10 @@ section li {
     padding-left: 2vh;
 }
 
+h6 {
+    margin: 2vw 0;
+}
+
 .background_img {
     position: fixed;
     z-index: -10;
@@ -135,11 +139,11 @@ section li {
     height: 90vh;
     width: 100%;
     opacity: .5;
-    margin-top: 54vh;
+    margin-top: 36.5vh;
 }
 
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
 
     section {
         display: grid;

@@ -16,7 +16,7 @@ section {
     grid-row-gap: 20vh;
 }
 
-.nav_item3 a{
+.nav_item3 a {
     background-color: #2D5C83;
 }
 
@@ -68,7 +68,7 @@ section li {
     margin-top: 36vh;
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
 
     section {
         display: grid;
