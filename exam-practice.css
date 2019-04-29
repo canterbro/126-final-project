@@ -8,25 +8,20 @@ html {
     color: #59656F;
 }
 
-.container {
-    text-align: center;
-}
-
-.content-container {
+section {
     display: grid;
     text-align: left;
     grid-template-columns: 2fr 3fr 3fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.content-container>div {
+section>div {
     padding: 2vh 2vh;
 }
 
 .nav_item5 a {
     background-color: #2D5C83;
 }
-
 
 .text {
     border: 1px solid #DDDDDD;
@@ -59,36 +54,36 @@ html {
     align-items: center;
 }
 
-.move-it {
+.reveal {
     grid-row: 1/2;
     grid-column: 3/4;
     color: #2D5C83;
     text-align: center;
 }
 
-.move-it:hover .exam-answers {
+.reveal:hover .exam-answers {
     display: block;
 }
 
-.move-it-two {
+.reveal-two {
     grid-row: 2/3;
     grid-column: 2/3;
     color: #2D5C83;
     text-align: center;
 }
 
-.move-it-two:hover .exam-answers {
+.reveal-two:hover .exam-answers {
     display: block;
 }
 
-.move-it-three {
+.reveal-three {
     grid-row: 3/4;
     grid-column: 3/4;
     color: #2D5C83;
     text-align: center;
 }
 
-.move-it-three:hover .exam-answers {
+.reveal-three:hover .exam-answers {
     display: block;
 }
 
@@ -100,11 +95,6 @@ html {
     -moz-box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
     box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
 }
-
-/* h5 {
-    margin: 2vh;
-    font-family: 'Roboto Mono', monospace;
-} */
 
 .exam-answers {
     grid-column: 3/4;
@@ -129,22 +119,10 @@ html {
     box-shadow: 5px 5px 5px 0px rgba(211, 211, 211, 1);
 }
 
-.content-container li {
+section li {
     list-style: none;
     padding-top: 1vh;
     padding-left: 2vh;
-}
-
-.content-container li a {
-    color: #59656F;
-}
-
-.content-container li a:hover {
-    color: #008DF1;
-}
-
-.content-container li a:active {
-    color: #9F00C0;
 }
 
 .background_img {
@@ -163,13 +141,12 @@ html {
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
 
-    .content-container {
+    section {
         display: grid;
         text-align: left;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-
 
     #row1 {
         grid-row: 1/2;
@@ -187,25 +164,21 @@ html {
         grid-column: 1/2;
     }
 
-    /* h5 {
-        font-size: 5vw;
-    } */
-
-    .move-it {
+    .reveal {
         grid-row: 2/3;
         grid-column: 1/2;
         color: #2D5C83;
         text-align: center;
     }
 
-    .move-it-two {
+    .reveal-two {
         grid-row: 4/5;
         grid-column: 1/2;
         color: #2D5C83;
         text-align: center;
     }
 
-    .move-it-three {
+    .reveal-three {
         grid-row: 6/7;
         grid-column: 1/2;
         color: #2D5C83;

@@ -138,17 +138,6 @@ section li {
     padding-left: 2vh;
 }
 
-section li a {
-    color: #59656F;
-}
-
-section li a:hover {
-    color: #008DF1;
-}
-
-section li a:active {
-    color: #9F00C0;
-}
 
 .background_img {
     position: fixed;

@@ -14,7 +14,7 @@
     background-color: #2D5C83;
 }
 
-section {
+aside {
     background: url("Images/Wartime_picture_of_a_Bletchley_Park_Bombe.jpg");
     grid-column: 2/3;
     grid-row: 1/2;
@@ -37,7 +37,7 @@ section {
     padding: 5vh 5vw;
 }
 
-aside {
+section {
     grid-column: 3/4;
     text-align: left;
 }
@@ -67,18 +67,6 @@ aside {
 
 .info {
     border-top: none;
-}
-
-a:visited {
-    color: #59656F;
-}
-
-a:hover {
-    color: #008DF1;
-}
-
-a:active {
-    color: #9F00C0;
 }
 
 .background_img {
@@ -112,47 +100,9 @@ a:active {
     }
 }
 
-/* @media only screen and (max-width: 959px) {
-    .title>h1 {
-        margin: 0 auto;
-        font-size: 2em;
-    }
-
-    .title>h2 {
-        margin: 0 auto;
-        font-size: 1.25em;
-    }
-
-    .quick>h3 {
-        font-size: 1.25em;
-        font-weight: 200;
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
-} */
-/* 
-@media only screen and (max-width: 767px) {
-    .title>h1 {
-        margin: 0 auto;
-        font-size: 2em;
-    }
-
-    .title>h2 {
-        margin: 0 auto;
-        font-size: 1.25em;
-    }
-
-    .quick>h3 {
-        font-size: 1.25em;
-        font-weight: 200;
-        margin-bottom: 10px;
-        margin-top: 0;
-    }
-} */
-
 /* when the screen get small enough stretch turing image across top and stack
 quick info and quick links */
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 630px){
     .container {
         min-height: 90vh;
         display: grid;
@@ -161,13 +111,14 @@ quick info and quick links */
         grid-template-rows: 1fr 3fr 1fr;
     }
 
-    section {
+    aside {
         grid-column: 1/2;
         grid-row: 1/2;
         height: 100%;
+        border-radius: 0;
     }
 
-    aside {
+    section {
         grid-column: 1/2;
         grid-row: 2/3;
         text-align: left;

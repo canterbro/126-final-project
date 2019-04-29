@@ -46,21 +46,26 @@ nav {
     display: none;
 }
 
-a:visited {
+section li a {
     color: #59656F;
 }
 
-a:hover {
+section li a:hover {
     color: #008DF1;
 }
 
-a:active {
+section li a:active {
     color: #9F00C0;
+}
+section li {
+    list-style: none;
+    padding-top: 1vh;
+    padding-left: 2vh;
 }
 
 /* when screen gets small enough collapse into hamburger */
 @media only screen and (max-width: 630px) {
-    .navmenu {
+    nav {
         grid-column: 1/2;
         grid-row: 1/2;
         position: fixed;
@@ -86,7 +91,6 @@ a:active {
         margin: 2vh 2vh;
     }
 }
-
 
 /* css styles for all headers */
 h1 {
