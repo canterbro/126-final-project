@@ -7,14 +7,14 @@ html {
     color: #59656F;
 }
 
-section {
+.container {
     display: grid;
     text-align: left;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr .2fr;
 }
 
-section>div {
+.container>div {
     padding: 2vh 2vh;
 }
 
@@ -101,7 +101,7 @@ section>div {
     grid-column: 3/4;
 }
 
-section li {
+.container li {
     list-style: none;
     padding-top: 1vh;
     padding-left: 2vh;
@@ -120,9 +120,21 @@ section li {
     margin-top: 54vh;
 }
 
+.container li a {
+    color: #59656F;
+}
+
+.container li a:hover {
+    color: #008DF1;
+}
+
+.container li a:active {
+    color: #9F00C0;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
 
-    section {
+    .container {
         display: grid;
         text-align: left;
         grid-template-columns: 1fr;
@@ -194,7 +206,7 @@ section li {
 }
 
 @media only screen and (max-width: 630px) {
-    section {
+    .container {
         display: grid;
         text-align: left;
         grid-template-columns: 1fr;
