@@ -57,6 +57,7 @@ section li a:hover {
 section li a:active {
     color: #9F00C0;
 }
+
 section li {
     list-style: none;
     padding-top: 1vh;
@@ -83,7 +84,7 @@ section li {
         display: block;
         background-color: #7BAFD4;
         text-align: left;
-        height: 5vh;
+        height: 6vh;
     }
 
     .fa {
@@ -98,7 +99,7 @@ h1 {
     font-size: 3em;
 }
 
-h2 { 
+h2 {
     margin: 0 auto;
     font-size: 2em;
 }
@@ -107,15 +108,16 @@ h3 {
     font-size: 1.6em;
     font-weight: 200;
 }
+
 h4 {
     font-size: 1.6em;
 }
+
 h5 {
     font-size: 1.2em;
     margin: 1vh 0vh;
 }
+
 h6 {
     font-size: 1.2em;
 }
-
-
