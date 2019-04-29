@@ -34,7 +34,7 @@ aside {
 }
 
 .david {
-    background: url("./assets/Plaisted.jpg");
+    background-image: url("./assets/Plaisted.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,6 +80,10 @@ p {
 .indent {
     margin-left: 20px;
     padding: 0;
+}
+
+.fix-indent {
+    margin-top: 0;
 }
 
 .left,
