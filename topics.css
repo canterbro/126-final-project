@@ -115,18 +115,6 @@ section li {
     margin-top: 54vh;
 }
 
-.logo {
-    grid-row: 6/7;
-    grid-column: 1/4;
-}
-
-/* 
-.UNC {
-    max-height: 8.5vh;
-} */
-
-
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
 
     section {

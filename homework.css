@@ -12,7 +12,6 @@ section {
     text-align: left;
     grid-template-columns: 2fr 3fr 3fr 2fr;
     grid-template-rows: 5fr 1fr;
-    /* grid-column-gap: .5vw; */
     grid-row-gap: 20vh;
 }
 
@@ -26,7 +25,6 @@ section {
     flex-direction: column;
     border: 1px solid rgb(243, 243, 243);
     min-width: 200px;
-    /* max-height: 180px; */
 }
 
 #handouts {
@@ -83,6 +81,5 @@ section li {
         grid-row: 2/3;
         grid-column: 2/3;
         max-width: 24vw;
-        /* background-color: rgb(243, 243, 243); */
     }
 }

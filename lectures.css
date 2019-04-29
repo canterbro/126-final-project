@@ -130,14 +130,11 @@ section>div {
     grid-column: 2/3;
 }
 
-
-
 section li {
     list-style: none;
     padding-top: 1vh;
     padding-left: 2vh;
 }
-
 
 .background_img {
     position: fixed;
