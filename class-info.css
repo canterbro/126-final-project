@@ -107,6 +107,17 @@ p {
     opacity: .5;
     margin-top: 54vh;
 }
+.indent a {
+    color: #59656F;
+}
+
+.indent a:hover {
+    color: #008DF1;
+}
+
+ .indent a:active {
+    color: #9F00C0;
+}
 
 @media only screen and (max-width: 1230px) {
     .title>h1 {
